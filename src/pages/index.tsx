@@ -197,7 +197,7 @@ export default function Home() {
               <div>
                 {/* 奖池 */}
                 <div className="card" style={{background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%)', color:'white', border:'none'}}>
-                    <div style={{fontSize:'11px', opacity:0.8, letterSpacing:'1px', fontWeight:'600'}}>CURRENT JACKPOT</div>
+                    <div style={{fontSize:'11px', opacity:0.8, letterSpacing:'1px', fontWeight:'600'}}>CURRENT JACKPOT 奖池</div>
                     <div style={{fontSize:'32px', fontWeight:'800', margin:'8px 0'}}>
                         {potBalance ? formatEther(potBalance as bigint) : '0'} <span style={{fontSize:'16px'}}>ETH</span>
                     </div>
